@@ -1,0 +1,6 @@
+mkdir folder
+cd folder
+touch test_{A..E}
+date > test_A;date > test_B;date > test_C;date > test_D;date > test_E;
+grep -r -h -c "2017"
+cd ../; rm -rf /folder
